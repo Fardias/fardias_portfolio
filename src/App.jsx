@@ -4,7 +4,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { EnvelopeIcon, CodeBracketIcon, UserIcon, BriefcaseIcon, XMarkIcon, } from '@heroicons/react/24/outline'
-import { GithubIcon, LinkedInIcon, TwitterIcon } from './components/icons'
+import { GithubIcon, LinkedInIcon, TwitterIcon } from './components/Icons'
 import './App.css'
 
 const App = () => {
