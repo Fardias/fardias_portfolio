@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @theme {
   --color-primary: #060606;
   --color-secondary: #1a1a1a;
   --color-acent: #3b82f6;
+}
+
+* {
+  font-family: 'Outfit', 'Poppins';
 }
