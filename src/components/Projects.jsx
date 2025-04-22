@@ -10,6 +10,14 @@ const Projects = () => {
             github: 'https://github.com/aftlah/soflepro',
             image: 'soflepro.png',
         },
+        {
+            title: 'YASNIME',
+            desc: 'List information of anime',
+            tags: ['Next.js', 'Tailwind', 'Jikan API'],
+            liveDemo: 'https://yasnime.vercel.app/',
+            github: 'https://github.com/Fardias/yasnime',
+            image: 'yasnime.png',
+        },
     ];
 
     return (
@@ -37,7 +45,7 @@ const Projects = () => {
                                 <h3 className="text-xl font-bold mb-3 group-hover:text-cyan-400 transition duration-300">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-400 mb-4">{project.desc}</p>
+                                <p className="text-gray-400 mb-4 min-h-[50px] max-h-[50px]">{project.desc}</p>
                                 <div className="flex flex-wrap gap-2">
                                     {project.tags.map((tag, tagIndex) => (
                                         <span
